@@ -41,7 +41,7 @@ body {
 {
     font-size: 14px;
     margin: 0px;
-    font-family: inherit;
+    font-family: "Outfit", sans-serif;
     font-weight: 330;
     text-align: left;  
  }
@@ -59,34 +59,58 @@ body {
 .container-list h4 {
     font-size: 16px;
     color: hsl(332, 51%, 32%);
-    padding-left: 16px;
-    margin-bottom: 10px;
+    padding-left: 18px;
+    margin-bottom: 14px;
 }
 
 .container-list ul {
     margin: 0; 
-    padding-left: 20px; 
-    list-style-type: none;
+    padding-left: 20px;
+   
 }
 
 .container-list li {
     margin-bottom: 6px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
     padding-left: 35px; 
-    position: relative; 
-}
-
-.container-list li::before {
-    content: '•';
-    position: absolute;
-    left: 0; 
-    font-size: 16px; 
     color: hsl(30, 10%, 34%);
+    
 }
 
 .container-list li span {
-    font-weight: 550;
+    font-weight:bold;
     font-size: 14px;
     color: hsl(30, 10%, 34%); 
     margin-right: 7px;
 }
+.container-Ingredient {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-Ingredient h4 {
+    font-size: 18px;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px; 
+}
+
+.container-Ingredient ul {
+    margin: 0; 
+    padding-left: 20px; 
+
+}
+
+.container-Ingredient li {
+    margin-bottom: 6px;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-weight: inherit;
+    padding-left: 35px; 
+
+}
+
+
